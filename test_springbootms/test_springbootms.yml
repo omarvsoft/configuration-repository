@@ -1,8 +1,6 @@
 spring:
    application:
     name: test_springbootms
-test:
-    custom:
-        message: Hello world I am the message number 2
 myown:
     custom: test custom yaml
+test.custom.message: Hello world I am the message number 2 modified 1
