@@ -1,6 +1,11 @@
 spring:
    application:
     name: test_springbootms
+  rabbitmq:
+    host: ${SECRET_CONFIG_RABBITMQ_HOST}
+    port: ${SECRET_CONFIG_RABBITMQ_PORT}
+    username: ${SECRET_CONFIG_RABBITMQ_USER}
+    password: ${SECRET_CONFIG_RABBITMQ_PASSWORD}
 myown:
     custom: test custom yaml
 test.custom.message: Hello world I am the message number 2 modified 5
