@@ -8,4 +8,4 @@ spring:
     name: test_springbootms
 myown:
     custom: test custom yaml
-test.custom.message: Hello world I am the message number 2 modified 50
+test.custom.message: Hello world I am the message number 2 modified 10
